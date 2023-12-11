@@ -1,0 +1,109 @@
+/*---------------English Text--------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Tajawal_Reg';
+    src: url(fonts/Tajawal_Eng/Tajawal-Regular.ttf) format(tff);
+    font-style: normal;
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Tajawal_Bold';
+    src: url(fonts/Tajawal_Eng/Tajawal-Bold.ttf) format(tff);
+    font-style: normal;
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: 'Tajawal_Black';
+    src: url(fonts/Tajawal_Eng/Tajawal-Black.ttf) format(tff);
+    font-style: normal;
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Tajawal_Ebold';
+    src: url(fonts/Tajawal_Eng/Tajawal-ExtraBold.ttf) format(tff);
+    font-style: normal;
+    font-weight: 900;
+  }
+  
+  /*---------------Arabic Text--------------------------------------------------------*/
+  
+  @font-face {
+    font-family: 'Almarai';
+    src: url(fonts/Almarai_Arabic/);
+  }
+  
+  
+body {
+    font-family: 'Tajawal_Black';
+  
+}
+.container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-areas:
+    "header  header  header"
+    "sidebar content content"
+    "sidebar content content"
+    "content content content"
+    "footer  footer  footer";
+}
+.site-header{
+    grid-area: header;
+}
+/*--------------Home----------------*/
+.layout-hero{
+    display: block;
+    background-color: #1689CA; 
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #1689CA; 
+  }
+  
+.div{
+    display: block;
+}  
+
+/*--------------About----------------*/
+
+.layout-nested{
+
+    background-color: #9EC6E9;
+    display: block;
+    height: 100%;
+    padding-top: 20px;
+   
+}
+
+/*--------------Program----------------*/
+
+.layout-nestedprogram{
+    background-color:whitesmoke ;
+    display: block;
+    height: 100%;
+    padding-top: 20px;
+   
+}
+
+/*--------------Contact us----------------*/
+.layout-nested1{
+    background-color: #9EC6E9;
+    display: block;
+    height: 100%;
+    padding-top: 20px;
+   
+}
+.site-footer{
+    background-color: #1689CA; 
+    display: block;
+    height: 100%;
+    padding-top: 20px;
+  
+
+}
+
