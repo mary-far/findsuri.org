@@ -1,16 +1,23 @@
-Instruction:
+Please note this project was retired by the client so the database might not be live.
 
-1. Download XAMPP application, and open it. 
-2. Start Apache and MySQL on XAMPP.
-3. Then, go the the C drive to find the xampp folder.
-4. In the "xampp" folder, find a floder called "htdocs".
-5. Get into "htdocs" folder, and create a new floder which is named "Project" in the "htdocs" folder.
-6. In the "Project", copy the entire "FindSuri" folder 
-	which is contained the PHP code and HTML code for the FindSuri website into the "Project" folder.
-7. Then, open the browser, and copy paste the website link: http://localhost/Project/FindSuri/index.php
-8. Then, you can see the FindSuri Website.
 
-Note: 
-1. Here is the link to see the database of FindSuri Website, http://localhost/phpmyadmin/sql.php
-2. If you have created the database before, please drop the findsuri database out first on http://localhost/phpmyadmin/sql.php.
-   Then reload the browser agian to recreate the findsuri database.
+Step 1: Download and Install XAMPP
+Begin by downloading the XAMPP application. Once installed, open the application.
+
+Step 2: Start Apache and MySQL Services
+Within XAMPP, start both the Apache and MySQL services.
+
+Step 3: Locate the XAMPP Installation on your C Drive
+Navigate to the C drive on your computer to find the "xampp" folder.
+
+Step 4: Access the "htdocs" Folder
+Within the "xampp" folder, locate and access the "htdocs" folder.
+
+Step 5: Create a New Project Folder
+Inside the "htdocs" folder, create a new folder named "Project."
+
+Step 6: Copy the FindSuri Website Files
+In the "Project" folder, copy the entire "FindSuri" folder, which contains the PHP and HTML code for the FindSuri website.
+
+Step 7: Activate the FindSuri database
+Open your preferred web browser and paste the following link: http://localhost/Project/FindSuri/index.php
