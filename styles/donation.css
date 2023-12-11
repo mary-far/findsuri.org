@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+/*---------------General Text--------------------------------------------------------*/
+.Title{
+  font-family: 'Almarai', sans-serif;
+  font-size: 3.52em;;
+
+}
+.Text{
+  font-family: 'Almarai', sans-serif;
+  text-align: left;
+  color:  #1689CA;;
+ 
+}
+
+/*-------Added for sign up pages-------*/
+
+
+.topMargin{
+  margin-top: 10%;
+}
+
+.donationForm{
+  margin-top: 12%;
+  margin-bottom: 5%;
+}
+
+.donationDescription{
+  margin-left: 2%;
+}
+
+
+.inputBlueBg .form-control, .inputBlueBg .form-select{
+  background-color: #9EC6E9 !important;
+  border: none;
+}
+
+.btnBlue{
+  background-color: #1689CA;
+  border-radius: 40px;
+}
+
+h1{
+  font-family: 'Almarai', sans-serif;
+  font-size: 2.5em;;
+  font-weight: bold;
+}
+
+label{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/*----------------------------*/
+
+
+/*----Body---*/
+
+body {
+  font-family: 'Tajawal';
+  background-image:  url('../images/background-colour.png');
+  background-repeat:repeat; 
+}
+
+.page-section-text{
+  font-weight: 400;
+  padding-top: 2%;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 300;
+  font-size: large;
+  align-content: center;
+}
+
+.icon {
+  display: inline-block;
+  font-size: inherit;
+  overflow: visible;
+  vertical-align: -0.125;
+  text-rendering: auto;
+  fill: gray !important;
+  width: 50px;
+  height: 50px;
+}
+
+/*Full Header*/
+header {
+  background: url();
+  font-family: 'Tajawal', sans-serif;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+ 
+}
+/* Header class */
+.site-header .animated {
+  animation-delay: 2s;
+  animation-duration: 1s;
+}
+
+.site-header  {
+
+  text-align:center;
+  font-family: 'Tajawal', sans-serif;
+  font-weight:500;
+  font-size: x-large;
+
+  position: fixed;
+  
+}
+
+
+.site-header .nav-link {
+  position:relative;
+  padding-bottom: 0;
+  margin-bottom: 2px;
+  color: white;
+}
+.dropdown-item{
+  text-align:center;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 300;
+  font-size: larger;
+  color: white;
+}
+.dropdown-menu {
+  
+  background-color: #0065A1;
+ 
+
+}
+
+
+.site-header .nav-link:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  max-width: 100px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-out;
+}
+
+.site-header .nav-link:hover:before {
+  visibility: visible;
+  left: 0;
+  transform: scaleX(1);
+  color: #D6AC29;
+}
+.overlay-text{
+ 
+  font-size: larger;
+  font-weight: 400;
+}
+.readmore{
+  font-family: 'Tajawal', sans-serif;
+  font-size: medium;
+
+}
+.social .container {
+  align-items: flex-start;
+  margin-left: -15%;
+}
+
+.social .container ul {
+  float: left;
+  
+}
+
+.social .container ul li {
+  float: left;
+  padding-left: 15px;
+  list-style-type: none;
+ 
+}
+
+
+/*section class text after logo */
+.layout-hero {
+  margin-top: -10px;
+  font-family: 'Almarai', sans-serif;
+ 
+}
+
+
+.site-header .layout-hero {
+  min-height: 50vh;
+}
+
+/*------Home Social media section---------------------*/
+.layout-social .layout-icon {
+  font-size: 2em;
+}
+
+
+
+/*------Body Header---------------------*/
+.site-nav{
+    background-color: #1689CA; 
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    font-family: 'Almarai', sans-serif;
+
+}
+
+@media screen and (max-width: 908px) {
+  .site-header .navbar-collapse {
+    background-color: #0065A1;
+    padding: 10px;
+    z-index: 1;
+  }
+
+}
+
+footer{
+  z-index: 2;
+}
+
+.site-footer{
+  background-color: #0065A1;
+  font-family: 'Tajawal', sans-serif;
+  z-index: 1;
+}
+.footer-text{
+  color: #D6AC29;
+  font-family: 'Almarai', sans-serif;
+}
+.footerp{
+  font-size: medium;
+  text-align: left;
+  margin-left: 25%;
+  display: contents;
+}
+
+@media screen and (min-width: 768px) {
+  #page-floater {
+    margin: 150px 0 150px 0;
+  }
+
+ 
+}
+
+
